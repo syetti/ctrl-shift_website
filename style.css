@@ -1,20 +1,115 @@
-.header {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+body {
+    background: #e7ebe1;
+    display: flex;
+    justify-content: center;
 }
 
-.header h1 {
-    animation:
-    type 4s steps(40, end), 
-    typeline 1s step-end infinite;
+.header {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* .header p {
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 5px;
+    border-right: 1px solid white;
+    animation: type 2s steps(30, end);
+} */
+
+.ty {
+    overflow: hidden;
+    white-space: nowrap;
+    width:0%;
+    margin-top: 5px;
+}
+
+.ty:nth-child(1){
+    animation: type 2.5s steps(30, end);
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(2){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(3){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(4){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(5){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(6){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(7){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(8){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 14s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(9){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(10){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(11){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
+}
+
+.ty:nth-child(12){
+    animation: type 2.5s steps(30, end);
+    animation-delay: 22s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes type {
-    from {width: 0}
-    to {width: 100%}
+    0% {width: 0%}
+    100% {width: 100%}
+
 }
 
-@keyframes typeline {
-    from, to {border-color: white}
-    50% {border-color: black;}
+.ind {
+    margin-left: 60px;
+}
+
+.int {
+    margin-left: 120px;
+}
+
+.mainbut:hover{
+    background: black;
+    color: white;
 }
