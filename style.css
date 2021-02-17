@@ -101,7 +101,6 @@ body {
 
 }
 
-
 .ind {
     margin-left: 60px;
 }
@@ -113,8 +112,4 @@ body {
 .mainbut:hover{
     background: black;
     color: white;
-}
-
-#skip {
-    
 }
