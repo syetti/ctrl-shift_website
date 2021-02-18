@@ -1,11 +1,11 @@
 body {
     background: #e7ebe1;
     display: flex;
-    /* justify-content: center; */
 }
 
 .intro {
     font-family: 'Roboto Mono', monospace;
+    justify-content: center;
 }
 
 /* .header p {
@@ -141,7 +141,7 @@ body {
     text-align: center;
     text-decoration: none;
   }
-  
+
 #home{
     float:left;
     display: block;
