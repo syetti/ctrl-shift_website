@@ -4,12 +4,7 @@ body {
     /* justify-content: center; */
 }
 
-<<<<<<< HEAD
-.header {
-
-=======
 .intro {
->>>>>>> 2e3cd0f052f3aaf98ad9a22d9451d7563e79b8c0
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -130,9 +125,17 @@ body {
     color: white;
 }
 
+.navbar {
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: grey;
+}
+
 #home{
     float:left;
     display: block;
-    color: black;
+    color: lightblue;
     text-align: left;
 }
