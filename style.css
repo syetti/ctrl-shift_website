@@ -133,9 +133,17 @@ body {
     background-color: grey;
 }
 
-#home{
+.navbar a {
+    font-family: 'Oxygen', sans-serif;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+/* #home{
     float:left;
     display: block;
     color: lightblue;
     text-align: left;
-}
+} */
