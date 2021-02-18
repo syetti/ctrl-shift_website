@@ -141,9 +141,10 @@ body {
     text-align: center;
     text-decoration: none;
   }
-/* #home{
+  
+#home{
     float:left;
     display: block;
     color: lightblue;
     text-align: left;
-} */
+}
