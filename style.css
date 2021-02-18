@@ -4,8 +4,12 @@ body {
     /* justify-content: center; */
 }
 
+<<<<<<< HEAD
 .header {
 
+=======
+.intro {
+>>>>>>> 2e3cd0f052f3aaf98ad9a22d9451d7563e79b8c0
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -27,12 +31,13 @@ body {
 
 .ty:nth-child(1){
     animation: type 2.5s steps(30, end);
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(2){
     animation: type 2.5s steps(30, end);
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -44,55 +49,55 @@ body {
 
 .ty:nth-child(4){
     animation: type 2.5s steps(30, end);
-    animation-delay: 3s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(5){
     animation: type 2.5s steps(30, end);
-    animation-delay: 4s;
+    animation-delay: 3.5s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(6){
     animation: type 2.5s steps(30, end);
-    animation-delay: 7s;
+    animation-delay: 6s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(7){
     animation: type 2.5s steps(30, end);
-    animation-delay: 8s;
+    animation-delay: 7s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(8){
     animation: type 2.5s steps(30, end);
-    animation-delay: 9s;
+    animation-delay: 8s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(9){
     animation: type 2.5s steps(30, end);
-    animation-delay: 10s;
+    animation-delay: 9s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(10){
     animation: type 2.5s steps(30, end);
-    animation-delay: 12s;
+    animation-delay: 11s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(11){
     animation: type 2.5s steps(30, end);
-    animation-delay: 14s;
+    animation-delay: 12.5s;
     animation-fill-mode: forwards;
 }
 
 .ty:nth-child(12){
     animation: type 2.5s steps(30, end);
-    animation-delay: 15s;
+    animation-delay: 13s;
     animation-fill-mode: forwards;
 }
 
@@ -124,6 +129,7 @@ body {
     background: black;
     color: white;
 }
+<<<<<<< HEAD
 
 #home{
     float:left;
@@ -131,3 +137,5 @@ body {
     color: black;
     text-align: left;
 }
+=======
+>>>>>>> 2e3cd0f052f3aaf98ad9a22d9451d7563e79b8c0
