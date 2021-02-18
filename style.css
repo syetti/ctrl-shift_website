@@ -1,10 +1,11 @@
 body {
     background: #e7ebe1;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .header {
+
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -105,11 +106,13 @@ body {
     margin-left: 60px;
 }
 
+
 .int {
     margin-left: 120px;
 }
 
 .intt {
+    text-size-adjust: 500px;
     margin-left: 110px;
 }
 
@@ -120,4 +123,11 @@ body {
 .mainbut:hover{
     background: black;
     color: white;
+}
+
+#home{
+    float:left;
+    display: block;
+    color: black;
+    text-align: left;
 }
