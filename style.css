@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     justify-content: center;
     font-size: 30px;
+    font-size-adjust: 100%;
 }
 
 .ty {
