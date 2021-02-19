@@ -120,6 +120,10 @@ body {
 /* FINISHED INDEX ANIMATION */
 
 .navbar {
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+    padding: 2px;
     display: inline-block;
     font-size: 20px;
     margin: 0px;
@@ -141,6 +145,7 @@ body {
     text-align: center;
     text-decoration: none;
   }
+
 
 #home{
     float:left;
@@ -167,13 +172,11 @@ body {
     margin-top: -38%;
     background-color: #e7ebe1;
 }
+
 .content{
 	right: 40px;
 	left: 280px;
 	top: 0px;
 	position: absolute;
 	padding-bottom: 30px;
-}
-.content h1{
-    color: black;
 }
