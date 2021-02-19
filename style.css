@@ -120,15 +120,21 @@ body {
 /* FINISHED INDEX ANIMATION */
 
 .navbar {
+    display: inline-block;
     font-size: 20px;
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
     overflow: hidden;
     background-color: grey;
+}
+.navbar li{
+    display: inline-block;
 }
 
 .navbar a {
     font-family: 'Oxygen', sans-serif;
+    background: black;
+    padding: 5px;
     float: left;
     font-size: 16px;
     color: white;
@@ -152,10 +158,10 @@ body {
     position: absolute;
     background: #e7ebe1;
     z-index: 2;
-    -webkit-transition: all .8s ease-in-out;
-	-moz-transition: all .8s ease-in-out;
-	-o-transition: all .8s ease-in-out;
-	transition: all .8s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
 }
 .tran:target {
     margin-top: -38%;
@@ -167,4 +173,7 @@ body {
 	top: 0px;
 	position: absolute;
 	padding-bottom: 30px;
+}
+.content h1{
+    color: black;
 }
