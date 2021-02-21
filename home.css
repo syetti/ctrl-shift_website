@@ -1,0 +1,97 @@
+body {
+    width:100%;
+    background: #e7ebe1;
+    overflow: hidden;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* FINISHED INDEX ANIMATION */
+
+.main {
+    font-family: 'Roboto Mono', monospace;
+    justify-content: center;
+    font-size: 1.3vw;
+}
+
+.navbar {
+    background:deepskyblue;
+    margin: 20px;
+    padding: 100px;
+    font-size: 20px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.navbar a{
+    display: inline-block;
+    font-family: 'Oxygen', sans-serif;
+    background: black;
+    padding: 70px;
+    margin: 5px;
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+.tran {
+    min-width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: -150%;
+    position: absolute;
+    background: #e7ebe1;
+    z-index: 2;
+    -webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+.tran:target {
+    margin-top: 0%;
+    background-color: #e7ebe1;
+}
+
+.content{
+    text-align: center;
+	padding-bottom: 30px;
+}
+
+.mission {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background:honeydew;
+    width: 60%;
+}
+
+.mission h2 {
+    font-size: 1.3vw;
+}
+.mission p {
+    font-size: 1vw;
+}
+
+.about {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background:rgb(255, 164, 220);
+    width: 70%;
+}
+
+.about h2 {
+    font-size: 1.3vw;
+}
+
+.us div {
+    display: inline-block;
+    font-size: 1vw;
+    margin: 5px;
+    border: solid black 2px; 
+}
