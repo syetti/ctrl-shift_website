@@ -20,7 +20,7 @@ html, body {
     display: inline-block;
     text-align: center;
     background:#e7ebe1;
-    min-width: 65%;
+    min-width: 50%;
     margin: 0px;
     padding: 0px;
     font-size: 20px;
@@ -38,7 +38,7 @@ html, body {
     font-size: 0px;
     color: white;
     text-decoration: none;
-    animation: hole 1.5s ease-in;
+    animation: hole 2s;
     animation-fill-mode: forwards;
 }
 
