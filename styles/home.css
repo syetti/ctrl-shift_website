@@ -1,6 +1,6 @@
 body {
     width:100%;
-    overflow: scroll;
+    overflow: hidden;
     background: #FCF6F5;
 }
 html, body {
@@ -9,14 +9,21 @@ html, body {
     padding: 0;
 }
 
+.logo{
+    display: block;
+    margin: auto;
+}
+
 .main {
     font-family: 'Roboto Mono', monospace;
     justify-content: center;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .navbar {
     display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 10px;
     text-align: center;
     background: #FCF6F5;
     /* min-width: 50%; */
@@ -29,8 +36,8 @@ html, body {
     display: inline-block;
     font-family: 'Oxygen', sans-serif;
     background: black;
-    padding: 170px 80px;
-    margin: 4px 2px;
+    padding: 180px 150px;
+    margin: 4px;
     width: 25%;
     font-size: 30px;
     color: white;
@@ -43,11 +50,11 @@ html, body {
     color: red;
 }
 
-@keyframes hole {
+/* @keyframes hole {
     0%{padding: 5px; width: -5%; font-size: 0px; margin: -10.5px;}
     90%{font-size: 0px;}
     100%{padding: 100px; width: 20%; font-size: 20px; margin: 5px;}
-}
+} */
 
 #homep{
     min-width: 100%;
@@ -89,58 +96,25 @@ html, body {
 
 @media screen and (max-width: 1500px)
 {
+
     .navbar a{
-        padding: 130px 100px;
+        padding: 120px 100px;
     }
+    
 }
 
 @media screen and (max-width: 1190px)
 {
+
     .main {
         font-size: 2.5vw;
     }
 
     .navbar a{
-        display: block;
-        padding: 50px 30px;
+        display: inline-block;
+        padding: 40px 0px;
         width: 85%;
     }
-}
 
-.mission {
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-    background:honeydew;
-    width: 60%;
-}
-
-.mission h2 {
-    font-size: 1.3vw;
-}
-.mission p {
-    font-size: 1vw;
-}
-
-.about {
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-    background:rgb(255, 164, 220);
-    width: 70%;
-}
-
-.about h2 {
-    font-size: 1.3vw;
-}
-
-.us div {
-    display: inline-block;
-    font-size: 1vw;
-    margin: 5px;
-    border: solid black 2px; 
-}
-
-.us p {
-    font-size: .7vw;
+    
 }

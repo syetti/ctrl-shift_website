@@ -1,13 +1,14 @@
 body {
-    background: #e7ebe1;
+    background: #FCF6F5;
     display: flex;
+    overflow:hidden;
 }
 /* FINISHED INDEX ANIMATION */
 
 .main {
     font-family: 'Roboto Mono', monospace;
     justify-content: center;
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .ty {
@@ -117,4 +118,12 @@ body {
     background: black;
     color: white;
 }
+
+@media screen and (max-width: 1190px)
+{
+    .main {
+        font-size: 1.1vw;
+    }
+}
+
 /* FINISHED ABOUT US ANIMATION */
