@@ -4,17 +4,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Fit Test</title>
-    <link href="styles/fitstyle.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1> Fit Test </h1>
+    <h5> Selected options will show all colleges that meet the requirement.</h5>
+
     <h2 id = "questions"> Would you like to attend a public or private/Ivy league colelge? </h2>
+    
     <div class = "A">
-    <button id = "Public"> Public </button> <button id = "Private"> Private </button>
+    <button id = "Public"> Public </button> 
+    <button id = "Private"> Private </button>
     </div>
 
-  <div id = "results"> </div>
+    <h2 id = "questions"> Estimated Tuition? </h2>
+    <div class = "A">
+    <button id = "tf"> less than $25K </button> 
+    <button id = "fo"> less than $40K </button>
+    <button id = "ff"> less than $50K </button>
+    <button id = "st"> less than $60K </button>
+    </div>
+
+    <h2 id = "questions"> What part of America? </h2>
+    <div class = "A">
+    <button id = "we"> West </button> 
+    <button id = "mw"> MidWest </button>
+    <button id = "sw"> SouthWest </button>
+    <button id = "se"> SouthEast </button>
+    <button id = "ne"> NorthEast </button>
+    </div>
     
+    <div id = "results"> 
+
+      <p class = "publicU foU" > 
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1280px-MIT_logo.svg.png" style = "width:400px;height:200px;" > 
+        MIT: Private University, 8% Admissions Rate <br></br> Located in Cambridge, Massachusetts, Campus Size: 168 Acres <br></br> Total Tuition : Around 55K <br></br>
+      <p class = "privateU foU ">title": "MIT", "type" : "Private","tags": ["Engineering", "Science", "Programming", "Mathematics", "Statistics"],"class_size": 3 "area": "Urban"</p>
+    </div>
+
+
+
     <script src="college.js"></script>
     <script src="script.js"></script>
   </body>
