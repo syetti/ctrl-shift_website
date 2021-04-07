@@ -1,36 +1,97 @@
-h1 {
-    text-align: center;
-    font-size: 100px;
-  }
-  
-  #questions {
-    text-align: center;
-    margin: 4%;
-  }
-  
-  button{ 
-    font-size: 50px;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 150px;
-    padding: 0px;
-    margin: 50px;
-    border: none;
-    outline: none;
-  }
-  
-  button:hover{
-    background-color: lightblue;
-  }
-  
-  button:active{
-    background-color: lightblue;
-  }
-  
-  .A {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-  }
+h1, h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#questions {
+  text-align: center;
+  margin: 4%;
+  font-size: 40px;
+}
+
+p{
+  font-size: 50px;
+}
+
+button{ 
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  padding: 0px;
+  margin: 50px;
+  border: none;
+  outline: none;
+}
+
+button:hover{
+  background-color: lightblue;
+}
+
+button:active{
+  background-color: lightblue;
+}
+
+.A {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.true {
+  background-color: lightblue;
+  border: 2px solid blue;
+}
+
+
+#results {
+  padding: 10px;
+  background: gray;
+}
+
+.publicU{
+  display: none;
+}
+
+.privateU{
+  display: none;
+}
+
+.tfU{
+  display: none;
+}
+
+.foU{
+  display: none;
+}
+
+.ffU{
+  display: none;
+}
+
+.stU{
+  display: none;
+}
+
+
+.weU{
+  display: none;
+}
+
+.mwU{
+  display: none;
+}
+
+.swU{
+  display: none;
+}
+
+.seU{
+  display: none;
+}
+
+.neU{
+  display: none;
+}
