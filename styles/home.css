@@ -9,6 +9,10 @@ html, body {
     padding: 0;
 }
 
+h1 {
+    margin-bottom: 80px;
+}
+
 .logo{
     display: block;
     margin: auto;
@@ -104,7 +108,7 @@ html, body {
     display: block;
     color: white;
     text-align: center;
-    padding: 18px 20px;
+    padding: 16px 18px;
     text-decoration: none;
 }
 
@@ -129,9 +133,7 @@ html, body {
     float: left;
     outline-style: solid;
     outline-color: white;
-    /* background: #FCF6F5;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black; */
+    background: #FCF6F5;
 }
 
 .fullride h3 {
@@ -144,14 +146,34 @@ html, body {
 }
 
 .fullbuttons a{
-    display: block;  
+    display: block;
+    font-weight: bold;
     text-decoration: none;
-    background: #6e000c;
-    color: white;
-    padding: 16px 20px;
+    color: black;
     margin-bottom: 10px;
+}
+
+#a:hover #b{
+    margin-left: 60px;
+    transition: .2s ease-in;
+}
+
+.fullbuttons span{
+    color: #3b3d3c;
+    font-weight: lighter;
+    font-size: 1.3vw;
     margin-left: 20px;
-    width: 25%;
+}
+
+.schmoney a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 30px;
+}
+
+.schmoney a:hover{
+    font-size: 20px;
 }
 
 
