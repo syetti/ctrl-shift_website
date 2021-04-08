@@ -1,6 +1,6 @@
 body {
     width:100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #FCF6F5;
 }
 html, body {
@@ -94,6 +94,7 @@ html, body {
     background-color: #FCF6F5;
 }
 
+
 .content{
     text-align: center;
 	/* padding-bottom: 30px; */
@@ -103,7 +104,7 @@ html, body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;
 }
 
@@ -112,6 +113,7 @@ html, body {
 }
 
 .schnav a:hover {
+    transition: .4s ease-in;
     background: #6e000c;
 }
 
@@ -123,18 +125,34 @@ html, body {
     background: #990011;
 }
 
-.cornheader img {
-    float:left;
-}
-
-.cornheader h1{
-    font-size: 1.3vw;
-    margin-left: 20px;
+.minilogo {
     float: left;
-    margin-top:25px;
+    outline-style: solid;
+    outline-color: white;
+    /* background: #FCF6F5;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black; */
 }
 
+.fullride h3 {
+    text-decoration: underline 3px solid #6e000c;
+    text-underline-offset: 20px;
+}
 
+.fullbuttons {
+    margin-top: 60px;
+}
+
+.fullbuttons a{
+    display: block;  
+    text-decoration: none;
+    background: #6e000c;
+    color: white;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 25%;
+}
 
 
 @media screen and (max-width: 1500px)
