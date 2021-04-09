@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles/home.css" rel="stylesheet">       
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="assets/HopsIcon.png">
     </head>
     <body>
@@ -14,22 +15,22 @@
                 <img src="assets/HopsLogoVector.svg" alt="Hops Logo" width="100" height="100" class="logo">     
                 <div class="content">
                     <div class="navbar">                           
-                         <a class="scholar" href="#scholarshipsp">Scholarships</a>
-                         <a class="summer" href="#summerpro">Summer Programs</a>
-                         <a class="college" href="#collegereq">College Requirements</a>
-                         <a class="fit" href="#fittest">Fit Test</a>        
+                         <a class="scholar" onclick="myFunction()" href="#scholarshipsp">Scholarships</a>
+                         <a class="summer" onclick="myFunction()" href="#summerpro">Summer Programs</a>
+                         <a class="college" onclick="myFunction()" href="#collegereq">College Requirements</a>
+                         <a class="fit" onclick="myFunction()" href="#fittest">Fit Test</a>      
                     </div> 
                 </div>
-            </div>      
+            </div>     
             <div id="scholarshipsp" class="tran">
                 <div class="content">               
                     <div class="schnav"> 
                         <ul>
                             <img src="assets/HopsLogoVector.svg" alt="Hops Logo" width="65" height="65" class="minilogo">                        
-                            <li><a class="fit" href="#fittest">Fit Test</a></li> 
-                            <li><a class="college" href="#collegereq">College Requirements</a></li>
-                            <li><a class="summer" href="#summerpro">Summer Programs</a></li>
-                            <li><a href="#homep">Home</a></li>
+                            <li><a class="fit" onclick="myFunction()" href="#fittest">Fit Test</a></li> 
+                            <li><a class="college" onclick="myFunction()" href="#collegereq">College Requirements</a></li>
+                            <li><a class="summer" onclick="myFunction()" href="#summerpro">Summer Programs</a></li>
+                            <li><a onclick="miFunction()" href="#homep">Home</a></li>
                         </ul>                                                                             
                     </div>
                     <h1>Scholarships</h1>
@@ -41,7 +42,7 @@
                             <a id="a" href="https://www.questbridge.org/" target="_blank">Questbridge <span id="b">></span></a>
                             <a id="a" href="https://www.thegatesscholarship.org/scholarship" target="_blank">Gates Scholarship <span id="b">></span></a>
                         </div>
-                        <h3 style="margin-top: 50px; margin-bottom: 50px;">Money</h3>
+                        <h3 style="margin-top: 50px; margin-bottom: 50px;">Money Scholarships</h3>
                         <div class="schmoney">
                             <table style="width:100%;">
                                 <tr>
@@ -50,13 +51,13 @@
                                     <td><a href="https://www.reaganfoundation.org/education/scholarship-programs/ge-reagan-foundation-scholarship-program/" target="_blank">GE-Reagan Foundation</a></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://scholars.horatioalger.org/about-our-scholarship-programs/national-scholarships/" target="_blank">Horatio Alger Association</a></td>
+                                    <td><a href="https://scholars.horatioalger.org/about-our-scholarship-programs/national-scholarships/" target="_blank">Horatio Alger Assoc.</a></td>
                                     <td><a href="https://burgerking.scholarsapply.org/information.php"  target="_blank">Burger King Scholarship</a></td>
                                     <td><a href="https://www.jackierobinson.org/apply/"  target="_blank">Jackie Robinson Foundation</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.dellscholars.org/" target="_blank">Dell Scholars</a></td>
-                                    <td><a href="http://www.return2college.com/awardprogram.cfm"  target="_blank">Return 2 College scholarship</a></td>
+                                    <td><a href="http://www.return2college.com/awardprogram.cfm"  target="_blank">Return 2 College</a></td>
                                     <td><a href="https://www.at3tactical.com/pages/at3-scholarship"  target="_blank">AT3 Tactical Scholarship</a></td>
                                 </tr>
                                 <tr>
@@ -92,7 +93,7 @@
                                 <tr>
                                     <td><a href="http://www.trialpro.com/scholarships/" target="_blank">Trial Pro</a></td>
                                     <td><a href="http://www.moolahspot.com/scholarship/index.cfm" target="_blank">MoolahSpot</a></td>
-                                    <td><a href="https://www.melissastonebergerfoundation.org/applying-for-a-scholarship.html" target="_blank">The Melissa Stoneberger Scholarship</a></td>
+                                    <td><a href="https://www.melissastonebergerfoundation.org/applying-for-a-scholarship.html" target="_blank">The Melissa Stoneberger</a></td>
                                 </tr>                           
                             </table>
                             
@@ -105,13 +106,30 @@
                     <div class="schnav"> 
                         <ul>
                             <img src="assets/HopsLogoVector.svg" alt="Hops Logo" width="70" height="70" class="minilogo">                        
-                            <li><a class="fit" href="#fittest">Fit Test</a></li> 
-                            <li><a class="college" href="#collegereq">College Requirements</a></li>
-                            <li><a class="scholar" href="#scholarshipsp">Scholarships</a></li>
-                            <li><a href="#homep">Home</a></li>
+                            <li><a class="fit" onclick="myFunction()" href="#fittest">Fit Test</a></li> 
+                            <li><a class="college" onclick="myFunction()" href="#collegereq">College Requirements</a></li>
+                            <li><a class="scholar" onclick="myFunction()" href="#scholarshipsp">Scholarships</a></li>
+                            <li><a onclick="miFunction()" href="#homep">Home</a></li>
                         </ul>                                                                             
                     </div>
-                    <h1>Summer Program</h1>
+                    <h1>Summer Programs</h1>
+                    <div class="summer">
+                        <div class="wall">                          
+                            <p style="font-family: 'Oxygen', sans-serif; font-size: 1.2vw;width: 60%; float:right;">Wall Street 101 comprises a series of summer camps during June and July, held at Bentley University’s world-class academic Trading Room in Waltham, MA. Each camp is a 5-day non-residential program that provides a fun and interactive opportunity for rising high school juniors and seniors to learn about the global financial markets. Through simulated trading exercises, lectures on financial analysis, portfolio construction, data analytics, trading and risk management, presentations, and engagement with Wall Street professionals, students are introduced to the fascinating world of global finance and investing. The Summer 2021 Camps will be held online due to the COVID-19 pandemic.</p>
+                            <h2>Bentley</h2>                                                                            
+                            <a href="https://www.bentley.edu/centers/trading-room/wall-street-101/application" target="_blank">Wall Street 101</a>
+                            <p style="font-family: 'Roboto', sans-serif;font-weight: bolder;">Application Deadline:<span> April 30, 2021</span></p>
+                            <p style="font-family: 'Roboto', sans-serif;font-weight: bolder;">Event Dates:<span> June 28 - August 6</span></p>
+                                                 
+                        </div>
+                        <div class="princeton">                          
+                            <p style="font-family: 'Oxygen', sans-serif; font-size: 1.2vw;width: 60%; float:right;">The Princeton Summer Journalism Program (PSJP) is one of the only programs of its kind offering a free, innovative residential journalism and college prep institute for high achieving high school juniors from low-income backgrounds. Over ten days every summer, up to 40 students from across the country explore current events and world affairs through workshops and lectures led by Princeton professors, professional journalists, and alumni on campus. The summer program culminates in the publication of the Princeton Summer Journal, the student-produced newspaper. During their senior year, students are matched with a personal college adviser, who will work with them on their college admissions process. Since our founding in 2002, PSJP has graduated more than 400 students who have gone on to attend some of the best colleges and universities and produce content for the most respected publications in the nation. Another 40 will join them this spring, as they complete their senior year and the college admission process!</p>
+                            <h2>Princeton</h2>
+                            <a href="https://psjp.princeton.edu/about-program/apply" target="_blank">Princeton Summer Journalism Program</a>
+                            <p style="font-family: 'Roboto', sans-serif;font-weight: bolder;">Application Deadline:<span> February 22, 2021</span></p>
+                            <p style="font-family: 'Roboto', sans-serif;font-weight: bolder;">Event Dates:<span> Mid-June thru August 2021</span></p>                       
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="collegereq" class="tran">
@@ -119,10 +137,10 @@
                     <div class="schnav"> 
                         <ul>
                             <img src="assets/HopsLogoVector.svg" alt="Hops Logo" width="65" height="65" class="minilogo">                        
-                            <li><a class="fit" href="#fittest">Fit Test</a></li> 
-                            <li><a class="summer" href="#summerpro">Summer Programs</a></li>
-                            <li><a class="scholar" href="#scholarshipsp">Scholarships</a></li>
-                            <li><a href="#homep">Home</a></li>
+                            <li><a class="fit" onclick="myFunction()" href="#fittest">Fit Test</a></li> 
+                            <li><a class="summer" onclick="myFunction()" href="#summerpro">Summer Programs</a></li>
+                            <li><a class="scholar" onclick="myFunction()" href="#scholarshipsp">Scholarships</a></li>
+                            <li><a onclick="miFunction()" href="#homep">Home</a></li>
                         </ul>                                                                             
                     </div>
                     <h1>College Requirements</h1>
@@ -133,15 +151,24 @@
                     <div class="schnav"> 
                         <ul>
                             <img src="assets/HopsLogoVector.svg" alt="Hops Logo" width="65" height="65" class="minilogo">                        
-                            <li><a class="college" href="#collegereq">College Requirements</a></li>
-                            <li><a class="summer" href="#summerpro">Summer Programs</a></li>
-                            <li><a class="scholar" href="#scholarshipsp">Scholarships</a></li>
-                            <li><a href="#homep">Home</a></li>
+                            <li><a class="college" onclick="myFunction()" href="#collegereq">College Requirements</a></li>
+                            <li><a class="summer" onclick="myFunction()" href="#summerpro">Summer Programs</a></li>
+                            <li><a class="scholar" onclick="myFunction()" href="#scholarshipsp">Scholarships</a></li>
+                            <li><a onclick="miFunction()" href="#homep">Home</a></li>
                         </ul>                                                                             
                     </div>
                     <h1>Fit Test</h1>
                 </div>
             </div>
         </div>
+
+        <script>
+            function myFunction() {
+                document.getElementById("homep").style.display = "none"
+            }
+            function miFunction() {
+                document.getElementById("homep").style.display = "block"
+            }
+        </script>
     </body>
 </html>
