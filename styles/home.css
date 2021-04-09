@@ -10,7 +10,7 @@ html, body {
 }
 
 h1 {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .logo{
@@ -167,6 +167,7 @@ h1 {
 
 .schmoney a{
     text-decoration: none;
+    text-decoration: underline 3px solid #c99e13;
     font-weight: bold;
     color: black;
     margin-left: 30px;
@@ -185,16 +186,15 @@ h1 {
 .summer div{ 
     float:left;
     border: 2px solid black;
-    border-radius: 5px;
-    margin: 50px;
-    margin-top: 10px;
-    width: 60%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 90%;
     text-align: left;
 }
 .summer h2{
     font-size: 2vw;
     margin-left: 10px;
-    
 }
 .summer a{
     text-decoration: none;
