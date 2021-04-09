@@ -5,19 +5,19 @@ h1, h5 {
 
 #questions {
   text-align: center;
-  margin: 4%;
+  margin: 2%;
   font-size: 40px;
 }
 
 p{
-  font-size: 50px;
+  font-size: 35px;
 }
 
 button{ 
   font-size: 50px;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width:auto;;
   height: 150px;
   padding: 0px;
   margin: 50px;
@@ -93,5 +93,52 @@ button:active{
 }
 
 .neU{
+  display: none;
+}
+
+.csU{
+  display: none;
+}
+
+.enU{
+  display: none;
+}
+
+.buU{
+  display: none;
+}
+
+.coU{
+  display: none;
+}
+
+.edU{
+  display: none;
+}
+
+.engU{
+  display: none;
+}
+
+.heU{
+  display: none;
+}
+
+.lawU{
+  display: none;
+}
+.artU{
+  display: none;
+}
+
+.scU{
+  display: none;
+}
+
+.histU{
+  display: none;
+}
+
+.ttU{
   display: none;
 }
