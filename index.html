@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <title>Home Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/home.css" rel="stylesheet">       
+        <link href="styles/home.css" rel="stylesheet">
+        <link href="styles/fitstyle.css" rel="stylesheet" type="text/css" />       
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="assets/HopsIcon.png">
@@ -157,7 +158,193 @@
                             <li><a onclick="miFunction()" href="#homep">Home</a></li>
                         </ul>                                                                             
                     </div>
-                    <h1>Fit Test</h1>
+                    <h1> Fit Test </h1>
+                    <h5> Selected options will show all colleges that meet the requirement.</h5>
+                
+                    <h2 id = "questions"> Would you like to attend a public or private/Ivy league college? </h2>
+                    
+                    <div class = "A">
+                    <button id = "Public"> Public </button> 
+                    <button id = "Private"> Private </button>
+                    </div>
+                
+                    <h2 id = "questions"> Estimated Tuition? </h2>
+                    <div class = "A">
+                    <button id = "tf"> less than $25K </button> 
+                    <button id = "tt"> Around $30K </button> 
+                    <button id = "fo"> Around $40K </button>
+                    <button id = "ff"> Around $50K </button>
+                    <button id = "st"> Around $60K </button>
+                    </div>
+                
+                    <h2 id = "questions"> What part of America? </h2>
+                    <div class = "A">
+                    <button id = "we"> West </button> 
+                    <button id = "mw"> MidWest </button>
+                    <button id = "sw"> SouthWest </button>
+                    <button id = "se"> SouthEast </button>
+                    <button id = "ne"> NorthEast </button>
+                    </div>
+                
+                    <h2 id = "questions"> What majors are you interestred in? </h2>
+                    <div class = "A">
+                    <button id = "cs">Computer Science</button> 
+                    <button id = "en">Engineering</button>
+                    <button id = "bu">Business</button>
+                    <button id = "co">Communications</button>
+                    <button id = "ed">Education</button>
+                   
+                    </div>
+                    <div class = "A">
+                    <button id = "sc">Sciences</button>
+                    <button id = "math">Math</button>  
+                    <button id = "eng">English</button>
+                    <button id = "hist">History</button>
+                    <button id = "he">Health</button>
+                    <button id = "law">Law</button>
+                    <button id = "art">Art</button>
+                
+                    </div>
+                
+                
+                    <div id = "results"> 
+                
+                      <p class = "privateU stU neU csU enU mathU scU"> 
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1280px-MIT_logo.svg.png" style = "width:200px;height:100px;"> 
+                        MIT: Private University, 8% Admissions Rate <br></br> 
+                        Located in Cambridge, Massachusetts, Campus Size: 168 Acres <br></br> 
+                        Total Tuition : Around 55K <br></br> 
+                        Demographics: 53% Asian 23% European 8% Latin American 6% North America 6% Middle Eastern 3% African 1% Oceania <br></br> 
+                        SAT Average 1500-1570 ACT Math: 34-36 ACT English: 33-35 GPA: 3.5+<br></br> 
+                        Popular Majors: Computer Science; Mechanical Engineering; Mathematics, Physics and Electrical and Electronics Engineering.
+                      
+                      <p class = "privateU weU stU csU enU mathU scU histU buU coU" > 
+                        <img src = "https://identity.stanford.edu/wp-content/uploads/2020/07/stanford-university-stacked.png;" style = "width:200px;height:100px;"> 
+                        Stanford: Private University, 4.3% Admissions Rate <br></br> 
+                        Located in PaloaLto, California , Campus Size: 8,180 Acres <br></br> 
+                        Total Tuition : Around 55K <br></br> 
+                        Demographics: 25% Asian 10% European 17% Latin American 1% Native Ameircan 7% African 11% International <br></br> 
+                        SAT Average 1440-1570 ACT Average: 34 GPA: 3.96 <br></br> 
+                        Popular Majors: Engineering; Computer and Information Sciences and Support Services; Multi/Interdisciplinary Studies; Social Sciences; and Mathematics and Statistics.
+                      </p>
+                      
+                      <p class ="privateU neU stU csU enU buU coU scU mathU histU artU">
+                        <img src = "https://www.drupal.org/files/CMU_Logo_Stack_Red.png" style = "width:200px;height:100px;">
+                        Carnegie Mellon: Private University, 15.4% Admissions Rate  <br></br> 
+                        Located in Pittsburgh, Pennsylvania, Campus Size: 155 acres <br></br> 
+                        Total Tuition : Around 55K <br></br> 
+                        Demographics: 30% Asian 30% European 8% Latin American 4% African 18% Non-Resident Alien 10% Ethnicity Unknown <br></br> 
+                        SAT Average 1460-1560 ACT Average: 33-35 GPA: 3.84 <br></br> 
+                        Popular Majors: Computer and Information Sciences and Support Services; Business, Management, Marketing, and Related Support Services; Mathematics and Statistics; and Multi/Interdisciplinary Studies.
+                      </p>
+                
+                      <p class = "privateU neU stU csU enU buU coU scU mathU heU ">
+                        <img src = "https://cdn.freelogovectors.net/wp-content/uploads/2018/03/tuftsuniversity-logo.png" style = "width:200px;height:100px;">
+                        Tufts University: Private University, 15% Admissions Rate <br></br> 
+                        Located in Middlesex County, Massachusetts, Campus Size: 150 acres <br></br> 
+                        Total Tuition : Around 55K <br></br> 
+                        Demographics: 15% Asian 50% European 8% Latin American 5% African 6% Two or More Races <br></br> 
+                        SAT Average 1390-1540 ACT Average: 33-34 GPA: 4.04 <br></br> 
+                        Popular Majors: Social Sciences; Multi/Interdisciplinary Studies; Computer and Information Sciences and Support Services; Engineering; and Biological and Biomedical Sciences.
+                      </p>
+                
+                      <p class = "publicU neU ttU buU coU edU scU engU histU heU artU">
+                        <img src = "https://cdn.freelogovectors.net/wp-content/uploads/2018/09/Temple-University-logo.png" style = "width:200px;height:100px;">
+                        Temple University: Public University, 60% Admissions Rate <br></br> 
+                        Located in Philadelphia, Pennsylvania, Campus Size: 390 acres <br></br> 
+                        Total Tuition : 17k in State 30k out of State <br></br> 
+                        Demographics: 11% Asian 55% European 7% Latin American 13% African 6% Non-Resident Alien 7% Ethnicity Unknown <br></br> 
+                        SAT Average 1010-1230 ACT Average: 27 GPA: 3.54 <br></br> 
+                        Popular Majors:Business, Management, Marketing, and Related Support Services; Communication, Journalism, and Related Programs; Visual and Performing Arts; Health Professions and Related Programs; and Biological and Biomedical Sciences.
+                      </p>
+                
+                      <p class = "privateU neU stU enU buU coU scU mathU histU engU heU lawU ">
+                        <img src = "https://branding.web-resources.upenn.edu/sites/default/files/UniversityofPennsylvania_FullLogo_RGB_0.png" style = "width:200px;height:100px;">
+                        Upenn: Private University, 7.7% Admissions Rate <br></br> 
+                        Located in Philadelphia, Pennsylvania, Campus Size: 299 acres <br></br> 
+                        Total Tuition : Around 55k <br></br> 
+                        Demographics: 19% Asian 44% European 10% Latin American 7% African 13% Non-Resident Alien 8% Ethnicity Unknown <br></br> SAT Average 1450- 1660  ACT Average: 34 GPA: 3.9 <br></br> 
+                        Popular Majors: Business, Management, Marketing, and Related Support Services; Social Sciences; Biological and Biomedical Sciences; Engineering; and Health Professions and Related Programs.
+                      </p>
+                
+                      <p class = "publicU neU ttU ffU enU csU scU buU coU edU mathU engU histU lawU artU">
+                        <img src = "https://i.pinimg.com/originals/16/84/01/168401753e4919128d3d68e77d02e3a5.png" style = "width:200px;height:100px;">
+                        Penn State: Public University, 76% Admissions Rate <br></br> 
+                        Located in Centre County, Pennsylvania, Campus Size: 7,958 acres <br></br> 
+                        Total Tuition : In State 35k Out of State 55k <br></br> 
+                        Demographics: 6.1% Asian 65.5% European 6.7% Latin American 4.3% African 12.1% Non-Resident Alien 5.2% Ethnicity Unknown <br></br> SAT Average 1070-1310 ACT Average: 28 GPA: 3.58 <br></br> 
+                        Popular Majors: Engineering; Business, Management, Marketing, and Related Support Services; Computer and Information Sciences and Support Services; Social Sciences; and Communication, Journalism, and Related Programs.
+                      </p>
+                
+                      <p class = "publicU mwU tfU ttU buU coU edU scU histU ">
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/1200px-Ohio_State_Buckeyes_logo.svg.png" style = "width:200px;height:100px;"> 
+                        Ohio State University: Public University, 54% Admissions Rate <br></br> 
+                        Located in Columbus, Ohio, Campus Size: 1,665 acres <br></br> 
+                        Total Tuition: In State: 11k Out of State 32k <br></br> 
+                        Demographics: 7.1% Asian 66.6% European 4.4% Latin American 6.3% African 8.6% Non-Resident Alien 6.9% Ethnicity Unknown <br></br> SAT Average 1290-1460 ACT Average: 30 GPA: 3.83 <br></br> 
+                        Popular Majors: Finance, General; Psychology, General; Marketing/Marketing Management, General; Speech Communication and Rhetoric; and Biology/Biological Sciences, General.
+                      </p>
+                
+                      <p class = "privateU neU ffU edU enU scU mathU heU coU">
+                        <img src = "https://brand.jhu.edu/assets/themes/jhu-brand/assets/images/download-preview/cty-small-vertical-blue-500px-95631b01ed.png" style = "width:300px;height:200px;">
+                        John Hopkins University: Private Universitry, 11% Admissions Rate <br></br> 
+                        Located in Baltimore, Maryland, Campus Size: 140 acres <br></br> 
+                        Total Tuition: Around 55k <br></br> 
+                        Demographics: 25% Asian 33% European 14% Latin American 7% African 11% Non-Resident Alien 11% Ethnicity Unknown <br></br> 
+                        SAT Average 1480-1570 ACT Average: 34 GPA: 4.13 <br></br> 
+                        Popular Majors: Neuroscience; Public Health, General; Cell/Cellular and Molecular Biology; Bioengineering and Biomedical Engineering; and Chemical Engineering.
+                
+                      <p class = "privateU seU ffU csU enU buU coU scU mathU engU histU heU lawU artU">
+                        <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Duke_University_Crest.svg/1200px-Duke_University_Crest.svg.png" style = "width:200px;height:250px;"> 
+                        Duke University: Private University, 8% Admissions Rate <br></br> 
+                        Located in Durham, North Carolina, Campus Size: 8,600 acres <br></br> 
+                        Total Tuition: Around 55k <br></br> 
+                        Demographics: 22% Asian 42% European 9% Latin American 10% African 10% Non-Resident Alien 6% Ethnicity Unknown <br></br> 
+                        SAT Average 1460-1560 ACT Average: 34 GPA: 3.92 <br></br> 
+                        Popular Majors: Computer Science, Engineering, School of Law, School of Medicine, Nursing, Public Policy, Economics, Bioengineering and Biomedical Engineering,and Performing Arts.
+                      </p>
+                
+                      <p class = "privateU swU foU enU buU coU edU scU mathU engU histU heU lawU artU">
+                        <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Trinity_Tigers_logo.svg/1200px-Trinity_Tigers_logo.svg.png" style = "width:300px;height:200px;">
+                          Trinity university: Private University, 29% Admissions Rate <br></br> 
+                          Located in San Antonio, Texas, Campus Size: 125 acres<br></br> 
+                          Total Tuition: Around 45K <br></br> 
+                          Demographics: 7% Asian 57% European 21% Latin American 4% African 5% Non-Resident Alien 6% Ethnicity Unknown <br></br> 
+                          SAT Average 1290-1450 ACT Average: 29 GPA: 3.58 <br></br> 
+                          Popular Majors: Business, Management, Marketing, and Related Support Services; Biological and Biomedical Sciences; Social Sciences; Engineering; and Foreign Languages, Literatures, and Linguistics
+                      </p>
+                
+                      <p class = "privateU neU ffU coU edU scU engU histU artU heU">
+                        <img src = "https://www.pikpng.com/pngl/b/38-382540_leave-haverford-college-logo-clipart.png" style = "width:300px;height:200px;"> 
+                        Haverford College: Private University, 16% Admissions Rate <br></br> 
+                        Located in Haverford, Pennsylvania, Campus Size: 200 acres <br></br>
+                        Total Tuition: Around 55K <br></br> 
+                        Demographics: 13% Asian 53% European 10% Latin American 7% African 11% Non-Resident Alien 5% Ethnicity Unknown <br></br> 
+                        SAT Average 1380- 1540 ACT Average: 32-34  GPA: 4.01 <br></br> 
+                        Popular Majors: social Sciences, General; Physical Sciences; Biology/Biological Sciences, General; Foreign Languages and Literatures, General; and Psychology
+                      </p>
+                      
+                      <p class = "publicU weU tfU foU buU coU scU engU histU heU lawU artU">
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/UCLA_Bruins_logo.svg/1280px-UCLA_Bruins_logo.svg.png" style = "width:300px;height:200px;">
+                        UCLA: Public University, 12% Admissions Rate <br></br> 
+                        Located in Los Angeles, California, Campus Size: 419 acres <br></br> 
+                        Total Tuition: In State 13k Out of State 43k <br></br> 
+                        Demographics: 33% Asian 25% European 21% Latin American 3% African 7% Two or more Races 4% Other 8% International  <br></br> 
+                        SAT Average 1300-1530 ACT Average: 29-35  GPA:3.9 <br></br> 
+                        Popular Majors: biology, business economics, political science, psychology, psychobiology and economics
+                      </p>
+                
+                      <p class = "publicU weU tfU foU csU enU coU scU mathU histU heU">
+                        <img src = "https://brand.berkeley.edu/wp-content/uploads/2016/11/primarylogo.png" style = "width:400px;height:200px;"> 
+                        UC Berkeley: Public University, 16% Admissions Rate <br></br> 
+                        Located in Berkeley, California, Campus Size: 1,232 acres <br></br> 
+                        Total Tuition: In State 14k Out of State 44k <br></br> 
+                        Demographics: 35% Asian 25% European 15% Latin American 2% African 13% Non-Resident Alien 10% Ethnicity Unknown <br></br> 
+                        SAT Average 1330-1530 ACT Average: 31-35  GPA:3.89 <br></br> 
+                        Popular Majors: Social Sciences; Engineering; Biological and Biomedical Sciences; Computer and Information Sciences and Support Services; and Multi/Interdisciplinary Studies.
+                      </p>
+                
+                      </div>
                 </div>
             </div>
         </div>
@@ -170,5 +357,6 @@
                 document.getElementById("homep").style.display = "block"
             }
         </script>
+        <script src="script.js"></script>
     </body>
 </html>
