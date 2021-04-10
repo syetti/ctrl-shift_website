@@ -1,6 +1,6 @@
 body {
     background: #FCF6F5;
-    display: flex;
+    display: block;
     overflow:hidden;
 }
 /* FINISHED INDEX ANIMATION */
@@ -8,7 +8,8 @@ body {
 .main {
     font-family: 'Roboto Mono', monospace;
     justify-content: center;
-    font-size: 1vw;
+    font-size: 1.1vw;
+    font-weight: bold;
 }
 
 .ty {
@@ -119,10 +120,17 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 1190px)
+@media screen and (max-width: 800px)
 {
+    .intt, .int, .ind, .indd{
+        margin-left: 0px;
+        text-size-adjust: 0px;
+    }
     .main {
-        font-size: 1.1vw;
+        font-size: 2.5vw;
+    }
+    .comment {
+        font-size: 1.8vw;
     }
 }
 

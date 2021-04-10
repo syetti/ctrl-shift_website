@@ -1,32 +1,37 @@
-h1, h5 {
+h5 {
   text-align: center;
-  font-size: 50px;
+  font-size: 2vw;
+  text-decoration: underline 3px solid black;
+  text-underline-offset: 10px;
+
 }
 
 #questions {
   text-align: center;
   margin: 2%;
-  font-size: 40px;
+  font-size: 1.7vw;
 }
 
-p{
-  font-size: 35px;
-}
 
-button{ 
-  font-size: 50px;
+button{
+  display: inline-block; 
+  font-size: 1.6vw;
   justify-content: center;
   align-items: center;
-  width:auto;;
-  height: 150px;
-  padding: 0px;
-  margin: 50px;
+  padding:20px;
+  text-decoration: underline 3px solid #c99e13;
+  text-underline-offset: 10px;
+  margin: 20px;
   border: none;
   outline: none;
 }
 
 button:hover{
-  background-color: lightblue;
+  transition: .2s ease-in;
+  font-size: 1.2vw;
+  text-decoration: underline 3px solid #6e000c;
+  background: #aaa6a5;
+  text-underline-offset: 10px;
 }
 
 button:active{
@@ -34,10 +39,8 @@ button:active{
 }
 
 .A {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+  display: block;
+  text-align: center;
 }
 
 .true {
@@ -48,7 +51,15 @@ button:active{
 
 #results {
   padding: 10px;
-  background: gray;
+  font-size: 1.5vw;
+  font-family: 'Oxygen', sans-serif;
+  background: #e4dbdb;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#results img{
+  width: 15%;
 }
 
 .publicU{
@@ -127,6 +138,7 @@ button:active{
 .lawU{
   display: none;
 }
+
 .artU{
   display: none;
 }
@@ -141,4 +153,26 @@ button:active{
 
 .ttU{
   display: none;
+}
+
+@media screen and (max-width: 800px)
+{
+  #results img{
+    width: 20%;
+  }
+  #results p{
+    font-size: 3vw;
+  }
+  .wholetest button{
+    font-size: 3.5vw;
+  }
+  .wholetest h5{
+    font-size: 4.3vw;
+    text-decoration: none;
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 1px;
+  }
+  #questions{
+    font-size:3.4vw;
+  }
 }

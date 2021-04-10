@@ -1,0 +1,87 @@
+.body,html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline 3px solid #6e000c;
+    text-underline-offset: 20px;
+}
+
+.logobar {
+    text-align: center;
+    background: #990011;
+}
+
+.about {
+    display: flex;
+}
+
+.about h2 {
+    font-size: 2vw;
+}
+
+.about p{
+    margin-right: 20px;
+    font-size: 1.3vw;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.pfp {
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 20px;
+}
+.menu a{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2vw;
+    color:white;
+    background:#990011;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:12px 20px;
+    margin-bottom: 20px;
+}
+
+.menu a:hover{
+    transition: .3s ease-in-out;
+    background: #6e000c;
+}
+
+#abdel,#eric,#justin {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px)
+{
+    .header {
+        font-size:3vw;
+        text-underline-offset: 10px;
+        margin-bottom: 30px;
+    }
+    .about h2{
+        font-size:3.5vw;
+    }
+    .about p{
+        margin-left: 20px;
+        font-size: 2.6vw;
+    }
+    .about img{
+        width:60px;
+        height: 60px;;
+    }
+    .menu a{
+        font-size: 3vw;
+    }
+}
